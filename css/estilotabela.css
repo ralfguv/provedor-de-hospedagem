@@ -1,0 +1,161 @@
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap);
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+
+body {
+    width: 100%;
+}
+
+header {
+    width: 100%;
+    background-color: #2f86d6;
+}
+
+.top {
+    max-width: 1024px;
+    margin: 0px auto;
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header img {
+    width: 80px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    padding: 10px;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.titulomenu p{
+    color: #fff;
+    font-weight: 600;
+    font-size: 12px;
+}
+
+.titulomenu h1{
+    font-size: 25px;
+}
+
+.titulomenu {
+    margin-left: 25px;
+}
+
+td {
+    border-right: 1px solid #f1f3f7;
+}
+
+table {
+    border-bottom: 1px solid #f1f3f7;
+}
+
+.tabela-precos {
+    width: 100%;
+    max-width: 1024px;
+    margin: 100px auto;
+    height: 900px;
+    text-align: center;
+}
+
+.coluna-vazia {
+    background-color: #fff;
+    border: none;
+}
+
+.tabela-precos thead {
+    background-color: #f1f3f7;
+}
+
+.tabela-precos thead th {
+    padding: 20px;
+}
+
+.tabela-precos thead p {
+    color: #a8a4a4;
+    font-size: 13px;
+}
+
+.firstcollun {
+    text-align: left;
+    background-color: #f1f3f7;
+    padding: 15px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.celulabolinha {
+    text-align: -webkit-center;
+ }
+.bolinha {
+    text-align: center; 
+    width: 15px;
+    height: 15px;
+    background: #2f86d6;
+    border-radius: 50%;
+}
+
+
+.tabela-precos td {
+    font-size: 13px;
+}
+
+
+.rodape {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: 50px auto;
+    background-color: #2f86d6;
+}
+
+.rodape img {
+    width: 100px
+    
+}
+
+.titulomenu h1 {
+    color: black;
+}
+
+.titulomenu p {
+    color: #fff;
+}
+
+.contatos  {
+    text-align: center;
+    padding: 40px 0 0px 0;
+}
+
+.contatos p  {
+    font-weight: 600;
+    line-height: 40px;
+    color: #fff;
+}
+
+.autor {
+    text-align: center;
+    padding: 20px 0 20px 0;
+}
+
+.autor span {
+    color: #2f86d6;
+}
+

@@ -1,0 +1,196 @@
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap);
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+
+body {
+    width: 100%;
+}
+
+header {
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header img {
+    width: 100px;
+    margin-right: 10px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    padding: 10px;
+    color: black;
+}
+
+.titulomenu p{
+    color: #2f86d6;
+    font-weight: 600;
+    margin-top: -10px;
+}
+
+.titulomenu {
+    margin-left: 25px;
+}
+
+h1 {
+    margin-bottom: 10px;
+}
+
+.banner {
+    background-color: #2f86d6;
+    color: #fff;
+}
+
+.containerbanner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+.sticker1 {
+    display: flex;
+    background-color: #233032 ;
+    color: white;
+    padding: 20px;
+}
+
+.containersticker {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+.containersticker a {
+    color: #fff;
+    background-color: #2f86d6;
+}
+
+.sticker2 {
+    display: flex;
+    background-color: #2f86d6 ;
+    color: white;
+    padding: 20px;
+}
+
+.informacoes {
+    width: 100%;
+    max-width: 1024px;
+    margin: 100px auto;
+}
+
+.containerinfo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 100px;
+
+}
+
+.informacoes img {
+    width: 100px;
+}
+
+.tituloinfo {
+    text-align: center;
+}
+
+.tableinfo table {
+    max-width: 1024px;
+    margin: 100px auto;
+    box-shadow: 0px 0px 20px 12px rgba(47, 134, 214, 1);
+    border-radius: 5px;
+}
+
+.tableinfo th {
+    text-align: center;
+    padding: 35px 35px 10px 35px;
+}
+
+.tableinfo p {
+    color: #a89f9f;
+    font-size: 15px;
+    padding: 10px;
+}
+
+.tableinfo td {
+    padding: 15px;
+    text-align: center;
+    font-weight: 500;
+}
+
+.tableinfo img {
+    width: 100px;
+    margin-top: 10px;
+}
+
+.linha-especial {
+    background-color: #f1f3f7;
+}
+
+.textoinfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+span {
+    color: #2f86d6;
+}
+
+
+.sticker2 .containersticker a {
+    background-color: #233032;
+}
+
+.rodape {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 1024px;
+    margin: 50px auto;
+}
+
+.rodape img {
+    width: 100px
+    
+}
+
+.contatos  {
+    text-align: center;
+    padding: 40px 0 0px 0;
+}
+
+.contatos p  {
+    font-weight: 600;
+    line-height: 40px;
+}
+
+.autor {
+    text-align: center;
+    background-color: #f1f3f7;
+    padding: 20px 0 20px 0;
+}
